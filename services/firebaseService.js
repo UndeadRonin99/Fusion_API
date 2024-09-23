@@ -9,7 +9,7 @@ if (process.env.FIREBASE_SERVICE_ACCOUNT_KEY_BASE64) {
   // Initialize Firebase Admin SDK
   admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: 'https://your-firebase-project.firebaseio.com',
+    databaseURL: 'https://fusion-14429-default-rtdb.firebaseio.com/',
   });
 } else {
   // For local development, use the serviceAccountKey.json file
@@ -17,10 +17,10 @@ if (process.env.FIREBASE_SERVICE_ACCOUNT_KEY_BASE64) {
 
   admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: 'https://your-firebase-project.firebaseio.com',
+    databaseURL: 'https://fusion-14429-default-rtdb.firebaseio.com/',
   });
 }
 
-const db = admin.firestore();
+const rtdb = admin.database();
 
-module.exports = { admin, db };
+module.exports = { admin, rtdb };
