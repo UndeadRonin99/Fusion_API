@@ -41,10 +41,3 @@ The Fusion API is the backend service for the Fusion App, providing functionalit
 
 ### 5. **Nutritional Analysis**
 - The API integrates with the Nutritionix API to provide nutritional analysis for ingredients and meals, managed by `nutritionixService.js`.
-
-## **Setup Instructions**
-
-### 1. **Clone the Repository**
-Clone the Fusion API repository to your local machine:
-```bash
-git clone <repository_url>
