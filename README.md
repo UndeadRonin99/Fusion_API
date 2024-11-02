@@ -1,5 +1,9 @@
 # **Fusion API**
 
+## Link to actual submission repo
+Link to final submission repository: 
+[Here](https://github.com/VCSTDN2024/opsc7312-poe-techtitans.git)
+
 ## **Overview**
 The Fusion API is the backend service for the Fusion App, providing functionalities for meal planning, recipe browsing, grocery list management, and user authentication. The API integrates with third-party services such as the Spoonacular API and Nutritionix API to fetch recipes and nutritional information, and Firebase for user authentication and data storage. The API is hosted on [Render.com](https://render.com), making it accessible for the Fusion Android app in Android Studio.
 
